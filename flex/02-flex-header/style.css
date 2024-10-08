@@ -9,7 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 1 1 100%;
+  flex: 1 1 auto;
 }
 
 .logo {
@@ -42,10 +42,12 @@ a {
   display: flex;
   flex: 1 0 auto;
   justify-content: flex-start;
+  margin-left: 20px;
 }
 
 .header .right-links {
   display: flex;
   flex: 1 0 auto;
   justify-content: flex-end;
+  margin-right: 20px;
 }
