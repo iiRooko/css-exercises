@@ -21,6 +21,7 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
+  /*gap: 20px;*/
 }
 
 .icon {
@@ -38,14 +39,16 @@ body {
   flex-shrink: 0;
 }
 
-.main {
+/*.main {
   display: flex;
-  justify-content: space-around;
+  justify-content: ;
   background-color: aqua;
-}
+} */
 
 .header {
   display: flex;
+  justify-content: flex-start;
+  
   background-color: red;
 }
 
@@ -63,6 +66,7 @@ body {
   border: 1px solid #eee;
   padding: 0;
   flex-shrink: 0;
+  
 }
 
 button {
