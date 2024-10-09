@@ -10,6 +10,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -41,16 +43,19 @@ a {
 .header, .footer {
   display: flex;
   justify-content: space-between;
+  flex: 0 1 auto;
 }
 
 .footer {
-  background-color: gray;
+  background-color: #eeeeee;
 }
 
 .content {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  flex: 1 1 auto;
 }
 
 .buttons {
