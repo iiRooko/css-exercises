@@ -43,17 +43,30 @@ a {
   justify-content: space-between;
 }
 
+.footer {
+  background-color: gray;
+}
+
 .content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
 }
 
 .left-links {
   display: flex;
+  padding: 20px;
+  gap: 10px;
 }
 
 .right-links {
   display: flex;
+  padding: 20px;
+  gap: 10px;
 }
