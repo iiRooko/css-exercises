@@ -40,8 +40,6 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   padding: 48px;
-  flex-wrap: wrap;
-  justify-content: space-around;
 }
 
 .main {
