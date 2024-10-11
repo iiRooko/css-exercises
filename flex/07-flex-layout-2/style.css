@@ -41,8 +41,7 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   padding: 48px;
-  flex: 1 1 auto;
-  max-width: 600px;
+  max-width: 300px;
 }
 
 .cards {
